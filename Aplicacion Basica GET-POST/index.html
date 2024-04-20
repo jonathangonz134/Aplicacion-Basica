@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Jonathan González</title>
+</head>
+<body>   
+
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="datosprocesados.php" method="post" class="form" id="form1">
+                <h2 class="form__title">BIENVENIDOS A PROGRAMACION COMPUTACIONAL IV</h2>
+                <p>Los campos con el signo * son obligatorios</p>
+                <input type="text" name="pnombre" id="pnombre" placeholder="Primer Nombre *" required class="input" />
+                <input type="text" name="snombre" id="snombre" placeholder="Segundo Nombre *" required class="input" />
+                <input type="text" name="papellido" id="papellido" placeholder="Primer Apellido *" required class="input" />
+                <input type="text" name="sapellido" id="sapellido" placeholder="Segundo Apellido *" required class="input" />
+                <input type="number" name="edad" id="edad" placeholder="Ingresa tu Edad *" required class="input" />
+                <input type="number" name="telefono" id="telefono" placeholder="Ingresa tu Numero de Telefono" class="input" />
+                <input type="text" name="direccion" id="direccion" placeholder="Ingresa tu Direccion *" required class="input" />
+                <label for="genero">Masculino *</label>
+                <input type="radio" name="genero" id="genero" required class="input">
+                <label for="genero">Femenino *</label>
+                <input type="radio" name="genero" id="genero" class="input">
+                <button class="btn">Ingresar</button>
+            </form>
+        </div>
+        
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <p class="universidad">UNIVERSIDAD GERARDO BARRIOS</p>
+                    <img src="https://facturacion.ugb.edu.sv/img/job-profile2.a5201693.png" alt="">                   
+                    
+                </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
